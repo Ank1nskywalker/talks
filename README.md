@@ -19,7 +19,7 @@ Analista en ciberseguridad con foco en Threat Intelligence, Incident Response y 
 ### Threat Intelligence 101 - From Reactive to Predictive Approach
 **Ekoparty Miami** · _Mayo 2026_
 
-Introducción a los fundamentos de Threat Intelligence: conceptos clave, el ciclo de inteligencia y cómo aplicarlo en la práctica.
+Un recorrido por CTI con casos de uso y los frameworks de referencia (Diamond Model, MITRE ATT&CK, Cyber Kill Chain), la valoración de fuentes y la Pirámide del Dolor, junto con un panorama de amenazas actuales. Incluye un taller práctico de mapeo de infraestructura del adversario online.
 
 [Diapositivas](./2026%20-%20Ekoparty%20Miami%20-%20Threat%20Intelligence%20101.pdf)
 
