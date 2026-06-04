@@ -39,6 +39,17 @@ Cómo redactar reportes de incidentes claros, precisos y accionables para casos 
 
 ---
 
+## 2024
+
+### Inteligencia de Amenazas: la importancia en las organizaciones
+**Security Meet** · Ciudad a confirmar · _2024 (mes a confirmar)_
+
+Por qué la inteligencia de amenazas es clave para las organizaciones: cómo aporta valor a la toma de decisiones y a una defensa proactiva. _(Resumen tentativo — reemplazar por el abstract real.)_
+
+[Diapositivas](./2024%20-%20Security%20Meet%20-%20Inteligencia%20de%20Amenazas%20-%20La%20importancia%20en%20las%20organizaciones.pdf) · [Video](#)
+
+---
+
 ## Cómo está organizado este repositorio
 
 - Las charlas se listan de la más reciente a la más antigua, agrupadas por año.
