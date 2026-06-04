@@ -10,8 +10,7 @@ Cada charla incluye un breve resumen y, cuando están disponibles, enlaces a las
 
 Analista en ciberseguridad con foco en Threat Intelligence, Incident Response y detección de amenazas a nivel de red. Trabajo con organizaciones de Uruguay y el resto de Latinoamérica, tanto del sector público como del financiero.
 
-- **LinkedIn:** [tu-perfil](https://www.linkedin.com/in/tu-usuario/)
-- **X / Twitter:** [@tu-usuario](https://twitter.com/tu-usuario)
+- **X:** [@anakinswal](https://x.com/anakinswal)
 
 ---
 
