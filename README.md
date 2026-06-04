@@ -26,6 +26,8 @@ Introducción a los fundamentos de Threat Intelligence: conceptos clave, el cicl
 ### Come to Dark Side - We have cookies
 **WomenCISO** · _Febrero 2026_
 
+Un recorrido por los orígenes de la Dark Web, sus distintos usos, protocolos y plataformas de acceso, con buenas prácticas para navegarla y la perspectiva de su uso desde las fuerzas de seguridad y los analistas de ciberseguridad.
+
 [Diapositivas](./2026%20-%20WomenCISO%20-%20Come%20to%20Dark%20Side%20-%20We%20have%20cookies.pdf)
 
 ### Writing the Incident Story: Professional Reporting for Malware and Cyber Attacks
@@ -42,7 +44,7 @@ Cómo redactar reportes de incidentes claros, precisos y accionables para casos 
 ### Inteligencia de Amenazas: la importancia en las organizaciones
 **Security Meet** · Colonia, Uruguay · _Mayo 2024_
 
-Por qué la inteligencia de amenazas es clave para las organizaciones: cómo aporta valor a la toma de decisiones y a una defensa proactiva.
+Un recorrido por la disciplina de Cyber Threat Intelligence (CTI) y sus diferencias con otros tipos de inteligencia, y por qué hoy dejó de ser un opcional para convertirse en un must dentro de las organizaciones.
 
 [Diapositivas](./2024%20-%20Security%20Meet%20-%20Inteligencia%20de%20Amenazas%20-%20La%20importancia%20en%20las%20organizaciones.pdf)
 
