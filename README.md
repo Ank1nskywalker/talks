@@ -15,25 +15,28 @@ Analista en ciberseguridad con foco en Threat Intelligence, Incident Response y 
 
 ---
 
-## 2024
+## 2026
 
-### Análisis de Tráfico C2 con Wireshark + LLM: lo que la IA hace muy bien (y lo que aún no puede hacer sola) en Incident Response
-**Nerdearla** · Buenos Aires, Argentina · _mes 2024_
+### Threat Intelligence 101
+**Ekoparty Miami** · Miami, Estados Unidos · _2026 (mes a confirmar)_
 
-Arquitectura híbrida para detección de beacons C2: Zeek/RITA para la detección determinística y un LLM para el enriquecimiento e interpretación. La tesis central son los límites de confiabilidad de los LLM en este flujo. Incluye demo en vivo con capturas pcap reales.
+Introducción a los fundamentos de Threat Intelligence: conceptos clave, el ciclo de inteligencia y cómo aplicarlo en la práctica. _(Resumen tentativo — reemplazar por el abstract real.)_
 
-[Diapositivas](./2024%20-%20Nerdearla%20-%20Analisis%20de%20Trafico%20C2%20con%20Wireshark%20y%20LLM.pdf) · [Video](#)
+[Diapositivas](./2026%20-%20Ekoparty%20Miami%20-%20Threat%20Intelligence%20101.pdf) · [Video](#)
 
----
+### Come to Dark Side - We have cookies
+**WomenCISO** · Ciudad a confirmar · _2026 (mes a confirmar)_
 
-## 2023
+_(Resumen pendiente — agregar el abstract de la charla.)_
 
-### Título de la charla
-**Evento** · Ciudad, País · _mes 2023_
+[Diapositivas](./2026%20-%20WomenCISO%20-%20Come%20to%20Dark%20Side%20-%20We%20have%20cookies.pdf) · [Video](#)
 
-Resumen breve de la charla en una o dos líneas: de qué trató y qué se llevó la audiencia.
+### Writing the Incident Story: Professional Reporting for Malware and Cyber Attacks
+**Deathcon** · Ciudad a confirmar · _noviembre 2026_
 
-[Diapositivas](#) · [Video](#)
+Cómo redactar reportes de incidentes claros, precisos y accionables para casos de malware y ciberataques, con foco en la comunicación profesional dentro del proceso de Incident Response. _(Resumen tentativo — reemplazar por el abstract real.)_
+
+> 🗓️ Charla confirmada. Material en preparación; se publicará después del evento (noviembre 2026).
 
 ---
 
