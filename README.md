@@ -17,9 +17,9 @@ Analista en ciberseguridad con foco en Threat Intelligence, Incident Response y 
 ## 2026
 
 ### Threat Intelligence 101 - From Reactive to Predictive Approach
-**Ekoparty Miami** · _Mayo 2026_
+**Ekoparty Miami** · _May 2026_
 
-Un recorrido por CTI con casos de uso y los frameworks de referencia (Diamond Model, MITRE ATT&CK, Cyber Kill Chain), la valoración de fuentes y la Pirámide del Dolor, junto con un panorama de amenazas actuales. Incluye un taller práctico de mapeo de infraestructura del adversario online.
+A tour of CTI with use cases and reference frameworks (Diamond Model, MITRE ATT&CK, Cyber ​​Kill Chain), source assessment and the Pyramid of Pain, along with an overview of current threats. Includes a hands-on workshop on mapping online adversary infrastructure.
 
 [Diapositivas](./2026%20-%20Ekoparty%20Miami%20-%20Threat%20Intelligence%20101.pdf)
 
