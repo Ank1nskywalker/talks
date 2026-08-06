@@ -22,7 +22,7 @@ Analista en ciberseguridad con foco en Threat Intelligence, Incident Response y 
 
 A tour of CTI with use cases and reference frameworks (Diamond Model, MITRE ATT&CK, Cyber Kill Chain), source assessment and the Pyramid of Pain, along with an overview of current threats. Includes a hands-on workshop on mapping online adversary infrastructure.
 
-[Slides](2026/Ekoparty%20Miami%20-%20Threat%20Intelligence%20101%20%28EN%29.pdf)
+[Slides](2026/Ekoparty%20Miami%20-%20Threat%20Intelligence%20101.pptx)
 
 ### Come to Dark Side - We have cookies
 
@@ -30,7 +30,7 @@ A tour of CTI with use cases and reference frameworks (Diamond Model, MITRE ATT&
 
 Un recorrido por los orígenes de la Dark Web, sus distintos usos, protocolos y plataformas de acceso, con buenas prácticas para navegarla y la perspectiva de su uso desde las fuerzas de seguridad y los analistas de ciberseguridad.
 
-[Slides](2026/WomenCISO%20-%20Come%20to%20Dark%20Side%20-%20We%20have%20cookies.pdf)
+[Slides](2026/WomenCISO%20-%20Come%20to%20Dark%20Side%20-%20We%20have%20cookies.pptx)
 
 ### Cazando lo que no sabés que no sabés: threat hunting dirigido por inteligencia e hipótesis
 
