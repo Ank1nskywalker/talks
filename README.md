@@ -22,7 +22,7 @@ Analista en ciberseguridad con foco en Threat Intelligence, Incident Response y 
 
 A tour of CTI with use cases and reference frameworks (Diamond Model, MITRE ATT&CK, Cyber Kill Chain), source assessment and the Pyramid of Pain, along with an overview of current threats. Includes a hands-on workshop on mapping online adversary infrastructure.
 
-[Slides](2026/Ekoparty%20Miami%20-%20Threat%20Intelligence%20101.pptx)
+[Slides](2026/Ekoparty%20Miami%20-%20Threat%20Intelligence%20101.pptx) · [PDF](2026/Ekoparty%20Miami%20-%20Threat%20Intelligence%20101%20%28EN%29.pdf)
 
 ### Come to Dark Side - We have cookies
 
