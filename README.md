@@ -17,20 +17,32 @@ Analista en ciberseguridad con foco en Threat Intelligence, Incident Response y 
 ## 2026
 
 ### Threat Intelligence 101 - From Reactive to Predictive Approach
-**Ekoparty Miami** · _May 2026_
 
-A tour of CTI with use cases and reference frameworks (Diamond Model, MITRE ATT&CK, Cyber ​​Kill Chain), source assessment and the Pyramid of Pain, along with an overview of current threats. Includes a hands-on workshop on mapping online adversary infrastructure.
+**Ekoparty Miami** · *May 2026*
 
-[Slides](./Threat%20Intelligence%20101%20-%20Ekoparty%20MIAMI%20%28EN%29.pdf)
+A tour of CTI with use cases and reference frameworks (Diamond Model, MITRE ATT&CK, Cyber Kill Chain), source assessment and the Pyramid of Pain, along with an overview of current threats. Includes a hands-on workshop on mapping online adversary infrastructure.
+
+[Slides](https://github.com/Ank1nskywalker/talks/blob/main/Threat%20Intelligence%20101%20-%20Ekoparty%20MIAMI%20%28EN%29.pdf)
+
 ### Come to Dark Side - We have cookies
-**WomenCISO** · _Febrero 2026_
+
+**WomenCISO** · *Febrero 2026*
 
 Un recorrido por los orígenes de la Dark Web, sus distintos usos, protocolos y plataformas de acceso, con buenas prácticas para navegarla y la perspectiva de su uso desde las fuerzas de seguridad y los analistas de ciberseguridad.
 
-[Slides](./2026%20-%20WomenCISO%20-%20Come%20to%20Dark%20Side%20-%20We%20have%20cookies.pdf)
+[Slides](https://github.com/Ank1nskywalker/talks/blob/main/2026%20-%20WomenCISO%20-%20Come%20to%20Dark%20Side%20-%20We%20have%20cookies.pdf)
+
+### Cazando lo que no sabés que no sabés: threat hunting dirigido por inteligencia e hipótesis
+
+**Hacking Day 2026** · Paraná, Entre Ríos · *Octubre 2026*
+
+Toda defensa opera sobre supuestos: que la telemetría ve todo, que las detecciones funcionan, que entendemos nuestra superficie de ataque. Esta charla presenta el threat hunting profesional como un proceso disciplinado para desafiar esos supuestos y descubrir lo que no sabemos que no sabemos, usando la Matriz de Rumsfeld como mapa y casos reales de la región —incluyendo un ejercicio assume-breach donde el adversario apagó la telemetría del EDR y operó cuatro horas a ciegas de todos los controles—. Cómo la inteligencia da dirección, cómo una hipótesis bien formulada da propósito, y por qué "no encontré nada" nunca es el resultado de un buen hunt.
+
+> 🗓️ Charla confirmada. Material en preparación; se publicará después del evento (octubre 2026).
 
 ### Writing the Incident Story: Professional Reporting for Malware and Cyber Attacks
-**Deathcon Cordoba** · _Noviembre 2026_
+
+**Deathcon Cordoba** · *Noviembre 2026*
 
 Cómo redactar reportes de incidentes claros, precisos y accionables para casos de malware y ciberataques, con foco en la comunicación profesional dentro del proceso de Incident Response.
 
@@ -41,11 +53,12 @@ Cómo redactar reportes de incidentes claros, precisos y accionables para casos 
 ## 2024
 
 ### Inteligencia de Amenazas: la importancia en las organizaciones
-**Security Meet** · Colonia, Uruguay · _Mayo 2024_
+
+**Security Meet** · Colonia, Uruguay · *Mayo 2024*
 
 Un recorrido por la disciplina de Cyber Threat Intelligence (CTI) y sus diferencias con otros tipos de inteligencia, y por qué hoy dejó de ser un opcional para convertirse en un must dentro de las organizaciones.
 
-[Slides](./2024%20-%20Security%20Meet%20-%20Inteligencia%20de%20Amenazas%20-%20La%20importancia%20en%20las%20organizaciones.pdf)
+[Slides](https://github.com/Ank1nskywalker/talks/blob/main/2024%20-%20Security%20Meet%20-%20Inteligencia%20de%20Amenazas%20-%20La%20importancia%20en%20las%20organizaciones.pdf)
 
 ---
 
