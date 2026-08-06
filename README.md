@@ -1,8 +1,8 @@
 # Charlas y Conferencias
 
-Colección del material de mis charlas y conferencias sobre ciberseguridad: Threat Intelligence, Incident Response, Threat Hunting y detección de amenazas a nivel de red.
+Colección del material de mis charlas y conferencias sobre ciberseguridad: Threat Intelligence, Threat Hunting, Incident Response y detección de amenazas a nivel de red.
 
-Cada charla incluye un breve resumen y el enlace a las diapositivas, disponibles en este mismo repositorio.
+Cada charla incluye un breve resumen y el enlace a las diapositivas, organizadas por año en este mismo repositorio.
 
 ---
 
@@ -22,7 +22,7 @@ Analista en ciberseguridad con foco en Threat Intelligence, Incident Response y 
 
 A tour of CTI with use cases and reference frameworks (Diamond Model, MITRE ATT&CK, Cyber Kill Chain), source assessment and the Pyramid of Pain, along with an overview of current threats. Includes a hands-on workshop on mapping online adversary infrastructure.
 
-[Slides](https://github.com/Ank1nskywalker/talks/blob/main/Threat%20Intelligence%20101%20-%20Ekoparty%20MIAMI%20%28EN%29.pdf)
+[Slides](2026/Ekoparty%20Miami%20-%20Threat%20Intelligence%20101%20(EN).pdf)
 
 ### Come to Dark Side - We have cookies
 
@@ -30,7 +30,7 @@ A tour of CTI with use cases and reference frameworks (Diamond Model, MITRE ATT&
 
 Un recorrido por los orígenes de la Dark Web, sus distintos usos, protocolos y plataformas de acceso, con buenas prácticas para navegarla y la perspectiva de su uso desde las fuerzas de seguridad y los analistas de ciberseguridad.
 
-[Slides](https://github.com/Ank1nskywalker/talks/blob/main/2026%20-%20WomenCISO%20-%20Come%20to%20Dark%20Side%20-%20We%20have%20cookies.pdf)
+[Slides](2026/WomenCISO%20-%20Come%20to%20Dark%20Side%20-%20We%20have%20cookies.pdf)
 
 ### Cazando lo que no sabés que no sabés: threat hunting dirigido por inteligencia e hipótesis
 
@@ -58,7 +58,7 @@ Cómo redactar reportes de incidentes claros, precisos y accionables para casos 
 
 Un recorrido por la disciplina de Cyber Threat Intelligence (CTI) y sus diferencias con otros tipos de inteligencia, y por qué hoy dejó de ser un opcional para convertirse en un must dentro de las organizaciones.
 
-[Slides](https://github.com/Ank1nskywalker/talks/blob/main/2024%20-%20Security%20Meet%20-%20Inteligencia%20de%20Amenazas%20-%20La%20importancia%20en%20las%20organizaciones.pdf)
+[Slides](2024/Security%20Meet%20-%20Inteligencia%20de%20Amenazas%20-%20La%20importancia%20en%20las%20organizaciones.pdf)
 
 ---
 
