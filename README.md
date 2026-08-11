@@ -8,7 +8,7 @@ Cada charla incluye un breve resumen y el enlace a las diapositivas, organizadas
 
 ## Sobre mí
 
-Analista en ciberseguridad con foco en Threat Intelligence, Incident Response y Threat Hunting. Trabajo con organizaciones de Uruguay y el resto de Latinoamérica, tanto del sector público como del financiero.
+Analista en ciberseguridad con foco en Threat Intelligence, Incident Response y Threst Hunting. Trabajo con organizaciones de Uruguay, Argentina y Chile, tanto del sector público como del financiero.
 
 - **X:** [@anakinswal](https://x.com/anakinswal)
 
@@ -31,6 +31,14 @@ A tour of CTI with use cases and reference frameworks (Diamond Model, MITRE ATT&
 Un recorrido por los orígenes de la Dark Web, sus distintos usos, protocolos y plataformas de acceso, con buenas prácticas para navegarla y la perspectiva de su uso desde las fuerzas de seguridad y los analistas de ciberseguridad.
 
 [Slides](2026/WomenCISO%20-%20Come%20to%20Dark%20Side%20-%20We%20have%20cookies.pptx)
+
+### CTI proactiva para la ciberdefensa: monitoreo de la Dark Web, análisis de TTPs y atribución de actores de amenaza
+
+**CYBER.AR — I Congreso de Ciberdefensa Argentina 2026** · Buenos Aires, Argentina · *Septiembre 2026*
+
+Metodología de CTI proactiva estructurada en tres fases encadenadas: recolección y evaluación de fuentes en la Dark Web con código Admiralty, OPSEC y requerimientos de inteligencia prioritarios; el ascenso del indicador al comportamiento mediante la Pirámide del Dolor y MITRE ATT&CK; y la atribución estructurada en tres niveles —técnico, operacional y político— con Análisis de Hipótesis en Competencia y umbrales de confianza diferenciados. Incluye casos documentados de abuso de herramientas RMM como vector de acceso y de técnicas Living-off-the-Land por actores alineados a Estados.
+
+> 🗓️ Trabajo completo aceptado por el Comité Técnico-Científico. Charla confirmada; el material se publicará después del evento (septiembre 2026).
 
 ### Cazando lo que no sabés que no sabés: threat hunting dirigido por inteligencia e hipótesis
 
