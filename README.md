@@ -8,7 +8,7 @@ Cada charla incluye un breve resumen y el enlace a las diapositivas, organizadas
 
 ## Sobre mí
 
-Analista en ciberseguridad con foco en Threat Intelligence, Incident Response y detección de amenazas a nivel de red. Trabajo con organizaciones de Uruguay y el resto de Latinoamérica, tanto del sector público como del financiero.
+Analista en ciberseguridad con foco en Threat Intelligence, Incident Response y Threat Hunting. Trabajo con organizaciones de Uruguay y el resto de Latinoamérica, tanto del sector público como del financiero.
 
 - **X:** [@anakinswal](https://x.com/anakinswal)
 
