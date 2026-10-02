@@ -36,9 +36,9 @@ Un recorrido por los orígenes de la Dark Web, sus distintos usos, protocolos y 
 
 **CYBER.AR — I Congreso de Ciberdefensa Argentina 2026** · Buenos Aires, Argentina · *Septiembre 2026*
 
-Metodología de CTI proactiva estructurada en tres fases encadenadas: recolección y evaluación de fuentes en la Dark Web con código Admiralty, OPSEC y requerimientos de inteligencia prioritarios; el ascenso del indicador al comportamiento mediante la Pirámide del Dolor y MITRE ATT&CK; y la atribución estructurada en tres niveles —técnico, operacional y político— con Análisis de Hipótesis en Competencia y umbrales de confianza diferenciados. Incluye casos documentados de abuso de herramientas RMM como vector de acceso y de técnicas Living-off-the-Land por actores alineados a Estados.
+Metodología de CTI proactiva estructurada en tres fases encadenadas: recolección y evaluación de fuentes en la Dark Web con código Admiralty, OPSEC y requerimientos de inteligencia prioritarios; el ascenso del indicador al comportamiento mediante la Pirámide del Dolor y MITRE ATT&CK; y la atribución estructurada en tres niveles —técnico, operacional y político— con Análisis de Hipótesis en Competencia y umbrales de confianza diferenciados. Incluye casos documentados de abuso de herramientas RMM como vector de acceso y de técnicas Living-off-the-Land por actores alineados a Estados. Suma dos casos regionales propios reportados al CERT.ar, la exposición de credenciales de organismos argentinos en mercados de infostealers y el impacto local del caso Oldelval.
 
-> 🗓️ Trabajo completo aceptado por el Comité Técnico-Científico. Charla confirmada; el material se publicará después del evento (septiembre 2026).
+[Slides](2026/CYBERAR2026_CTI_proactiva_ciberdefensa.pptx)
 
 ### Cazando lo que no sabés que no sabés: threat hunting guiado por inteligencia, sobre un caso real
 
