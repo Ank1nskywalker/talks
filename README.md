@@ -46,7 +46,7 @@ Metodología de CTI proactiva estructurada en tres fases encadenadas: recolecci�
 
 Toda defensa opera sobre supuestos: que la telemetría ve todo, que las detecciones funcionan, que entendemos nuestra superficie de ataque. Esta charla presenta el threat hunting profesional como un proceso disciplinado para desafiar esos supuestos y descubrir lo que no sabemos que no sabemos, usando la Matriz de Rumsfeld como mapa y casos reales de la región —incluyendo un ejercicio assume-breach donde el adversario apagó la telemetría del EDR y operó cuatro horas a ciegas de todos los controles—. Cómo la inteligencia da dirección, cómo una hipótesis bien formulada da propósito, y por qué "no encontré nada" nunca es el resultado de un buen hunt.
 
-> 🗓️ Charla confirmada. Material en preparación; se publicará después del evento (octubre 2026).
+[Slides](2026/Cazando_lo_que_no_sabes_que_sabes.pptx) · Plantilla de informe: [ES](Templates/Informe_Threat_Hunting__01-2026_-ClickFix_RunMRU.pdf) · [EN](Templates/Threat_Hunting_Report_Template_-_ClickFix_RunMRU_EN.pdf)
 
 ### Writing the Incident Story: Professional Reporting for Malware and Cyber Attacks
 
