@@ -2,13 +2,13 @@
 
 Colección del material de mis charlas y conferencias sobre ciberseguridad: Threat Intelligence, Threat Hunting, Incident Response y detección de amenazas a nivel de red.
 
-Cada charla incluye un breve resumen y el enlace a las diapositivas, organizadas por año en este mismo repositorio.
+Cada charla incluye un breve resumen y el enlace a las diapositivas, organizadas por año en este mismo repositorio. Las plantillas reutilizables, como el informe de threat hunting, están en la carpeta [Templates](Templates).
 
 ---
 
 ## Sobre mí
 
-Analista en ciberseguridad con foco en Threat Intelligence, Incident Response y Threst Hunting. Trabajo con organizaciones de Uruguay, Argentina y Chile, tanto del sector público como del financiero.
+Analista en ciberseguridad con foco en Threat Intelligence, Incident Response y Threat Hunting. Trabajo con organizaciones de Uruguay, Argentina y Chile, tanto del sector público como del financiero.
 
 - **X:** [@anakinswal](https://x.com/anakinswal)
 
@@ -40,11 +40,11 @@ Metodología de CTI proactiva estructurada en tres fases encadenadas: recolecci�
 
 > 🗓️ Trabajo completo aceptado por el Comité Técnico-Científico. Charla confirmada; el material se publicará después del evento (septiembre 2026).
 
-### Cazando lo que no sabés que no sabés: threat hunting dirigido por inteligencia e hipótesis
+### Cazando lo que no sabés que no sabés: threat hunting guiado por inteligencia, sobre un caso real
 
 **Hacking Day 2026** · Paraná, Entre Ríos · *Octubre 2026*
 
-Toda defensa opera sobre supuestos: que la telemetría ve todo, que las detecciones funcionan, que entendemos nuestra superficie de ataque. Esta charla presenta el threat hunting profesional como un proceso disciplinado para desafiar esos supuestos y descubrir lo que no sabemos que no sabemos, usando la Matriz de Rumsfeld como mapa y casos reales de la región —incluyendo un ejercicio assume-breach donde el adversario apagó la telemetría del EDR y operó cuatro horas a ciegas de todos los controles—. Cómo la inteligencia da dirección, cómo una hipótesis bien formulada da propósito, y por qué "no encontré nada" nunca es el resultado de un buen hunt.
+Toda defensa opera sobre supuestos: que la telemetría ve todo, que las detecciones funcionan, que si algo pasa alguien lo va a ver. Esta charla presenta el threat hunting guiado por inteligencia como un proceso disciplinado para desafiar esos supuestos, usando la matriz de Rumsfeld como mapa y un caso real de la región: un usuario pegó en Win+R un comando desde un señuelo ClickFix y la única alerta llegó casi cinco minutos después, por una IP que ya estaba en una lista de reputación. Recorremos la hunt completa, desde la hipótesis sobre la clave RunMRU hasta las seis queries en SentinelOne que reconstruyen la cadena (MSI silencioso, binarios .NET inyectados y una extensión falsa de Chrome como persistencia), y cerramos con cómo escribir el informe: qué tiene que decir, para quién, y por qué una hunt sin hallazgos también es un resultado si podés explicar por qué tu query habría encontrado algo.
 
 [Slides](2026/Cazando_lo_que_no_sabes_que_sabes.pptx) · Plantilla de informe: [ES](Templates/Informe_Threat_Hunting__01-2026_-ClickFix_RunMRU.pdf) · [EN](Templates/Threat_Hunting_Report_Template_-_ClickFix_RunMRU_EN.pdf)
 
@@ -67,6 +67,16 @@ Cómo redactar reportes de incidentes claros, precisos y accionables para casos 
 Un recorrido por la disciplina de Cyber Threat Intelligence (CTI) y sus diferencias con otros tipos de inteligencia, y por qué hoy dejó de ser un opcional para convertirse en un must dentro de las organizaciones.
 
 [Slides](2024/Security%20Meet%20-%20Inteligencia%20de%20Amenazas%20-%20La%20importancia%20en%20las%20organizaciones.pdf)
+
+---
+
+## Plantillas
+
+Material reutilizable que acompaña a las charlas, en la carpeta [Templates](Templates).
+
+**Informe de Threat Hunting** · Plantilla completa con un caso de ejemplo real (ClickFix / RunMRU), presentada en Hacking Day 2026: resumen ejecutivo, hipótesis de caza, alcance y limitaciones, MITRE ATT&CK, metodología PEAK, hallazgos, plan de acción y anexos con IOCs, queries S1QL y línea de tiempo. TLP:CLEAR, con los datos de la víctima anonimizados.
+
+[Español](Templates/Informe_Threat_Hunting__01-2026_-ClickFix_RunMRU.pdf) · [English](Templates/Threat_Hunting_Report_Template_-_ClickFix_RunMRU_EN.pdf)
 
 ---
 
