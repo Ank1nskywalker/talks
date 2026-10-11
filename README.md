@@ -46,7 +46,7 @@ Metodología de CTI proactiva estructurada en tres fases encadenadas: recolecci�
 
 Toda defensa opera sobre supuestos: que la telemetría ve todo, que las detecciones funcionan, que si algo pasa alguien lo va a ver. Esta charla presenta el threat hunting guiado por inteligencia como un proceso disciplinado para desafiar esos supuestos, usando la matriz de Rumsfeld como mapa y un caso real de la región: un usuario pegó en Win+R un comando desde un señuelo ClickFix y la única alerta llegó casi cinco minutos después, por una IP que ya estaba en una lista de reputación. Recorremos la hunt completa, desde la hipótesis sobre la clave RunMRU hasta las seis queries en SentinelOne que reconstruyen la cadena (MSI silencioso, binarios .NET inyectados y una extensión falsa de Chrome como persistencia), y cerramos con cómo escribir el informe: qué tiene que decir, para quién, y por qué una hunt sin hallazgos también es un resultado si podés explicar por qué tu query habría encontrado algo.
 
-[Slides](2026/Cazando_lo_que_no_sabes_que_sabes.pptx) · Plantilla de informe: [ES](Templates/Informe_Threat_Hunting__01-2026_-ClickFix_RunMRU.pdf) · [EN](Templates/Threat_Hunting_Report_Template_-_ClickFix_RunMRU_EN.pdf)
+[Slides](2026/Cazando%20lo%20que%20no%20sab%C3%A9s%20que%20no%20sab%C3%A9s.pptx) · [PDF](2026/Cazando%20lo%20que%20no%20sab%C3%A9s%20que%20no%20sab%C3%A9s.pdf) · Plantilla de informe: [ES](Templates/Informe_Threat_Hunting__01-2026_-ClickFix_RunMRU.pdf) · [EN](Templates/Threat_Hunting_Report_Template_-_ClickFix_RunMRU_EN.pdf)
 
 ### Writing the Incident Story: Professional Reporting for Malware and Cyber Attacks
 
