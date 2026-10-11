@@ -2,7 +2,7 @@
 
 Colección del material de mis charlas y conferencias sobre ciberseguridad: Threat Intelligence, Threat Hunting, Incident Response y detección de amenazas a nivel de red.
 
-Cada charla incluye un breve resumen y el enlace a las diapositivas, organizadas por año en este mismo repositorio. Las plantillas reutilizables, como el informe de threat hunting, están en la carpeta [Templates](Templates).
+Cada charla incluye un breve resumen y el enlace a las diapositivas, organizadas por año en este mismo repositorio. Las plantillas reutilizables, como el informe de threat hunting, están en el repositorio [Templates](https://github.com/Ank1nskywalker/Templates).
 
 ---
 
@@ -30,7 +30,7 @@ A tour of CTI with use cases and reference frameworks (Diamond Model, MITRE ATT&
 
 Un recorrido por los orígenes de la Dark Web, sus distintos usos, protocolos y plataformas de acceso, con buenas prácticas para navegarla y la perspectiva de su uso desde las fuerzas de seguridad y los analistas de ciberseguridad.
 
-[Slides](2026/WomenCISO%20-%20Come%20to%20Dark%20Side%20-%20We%20have%20cookies.pptx)
+[Slides](2026/WomenCISO%20-%20Come%20to%20Dark%20Side%20-%20We%20have%20cookies.pptx) · [PDF](2026/WomenCISO%20-%20Come%20to%20Dark%20Side%20-%20We%20have%20cookies.pdf)
 
 ### CTI proactiva para la ciberdefensa: monitoreo de la Dark Web, análisis de TTPs y atribución de actores de amenaza
 
@@ -38,7 +38,7 @@ Un recorrido por los orígenes de la Dark Web, sus distintos usos, protocolos y 
 
 Metodología de CTI proactiva estructurada en tres fases encadenadas: recolección y evaluación de fuentes en la Dark Web con código Admiralty, OPSEC y requerimientos de inteligencia prioritarios; el ascenso del indicador al comportamiento mediante la Pirámide del Dolor y MITRE ATT&CK; y la atribución estructurada en tres niveles —técnico, operacional y político— con Análisis de Hipótesis en Competencia y umbrales de confianza diferenciados. Incluye casos documentados de abuso de herramientas RMM como vector de acceso y de técnicas Living-off-the-Land por actores alineados a Estados. Suma dos casos regionales propios reportados al CERT.ar, la exposición de credenciales de organismos argentinos en mercados de infostealers y el impacto local del caso Oldelval.
 
-[Slides](2026/CYBERAR2026_CTI_proactiva_ciberdefensa.pptx)
+[Slides](2026/CYBERAR%202026%20-%20CTI%20proactiva%20para%20la%20ciberdefensa.pptx) · [PDF](2026/CYBERAR%202026%20-%20CTI%20proactiva%20para%20la%20ciberdefensa.pdf)
 
 ### Cazando lo que no sabés que no sabés: threat hunting guiado por inteligencia, sobre un caso real
 
@@ -46,7 +46,7 @@ Metodología de CTI proactiva estructurada en tres fases encadenadas: recolecci�
 
 Toda defensa opera sobre supuestos: que la telemetría ve todo, que las detecciones funcionan, que si algo pasa alguien lo va a ver. Esta charla presenta el threat hunting guiado por inteligencia como un proceso disciplinado para desafiar esos supuestos, usando la matriz de Rumsfeld como mapa y un caso real de la región: un usuario pegó en Win+R un comando desde un señuelo ClickFix y la única alerta llegó casi cinco minutos después, por una IP que ya estaba en una lista de reputación. Recorremos la hunt completa, desde la hipótesis sobre la clave RunMRU hasta las seis queries en SentinelOne que reconstruyen la cadena (MSI silencioso, binarios .NET inyectados y una extensión falsa de Chrome como persistencia), y cerramos con cómo escribir el informe: qué tiene que decir, para quién, y por qué una hunt sin hallazgos también es un resultado si podés explicar por qué tu query habría encontrado algo.
 
-[Slides](2026/Cazando%20lo%20que%20no%20sab%C3%A9s%20que%20no%20sab%C3%A9s.pptx) · [PDF](2026/Cazando%20lo%20que%20no%20sab%C3%A9s%20que%20no%20sab%C3%A9s.pdf) · Plantilla de informe: [ES](Templates/Informe_Threat_Hunting__01-2026_-ClickFix_RunMRU.pdf) · [EN](Templates/Threat_Hunting_Report_Template_-_ClickFix_RunMRU_EN.pdf)
+[Slides](2026/Cazando%20lo%20que%20no%20sab%C3%A9s%20que%20no%20sab%C3%A9s.pptx) · [PDF](2026/Cazando%20lo%20que%20no%20sab%C3%A9s%20que%20no%20sab%C3%A9s.pdf) · Plantilla de informe: [ES](https://github.com/Ank1nskywalker/Templates/blob/main/Plantilla%20Informe%20Threat%20Hunting%20-%20ClickFix%20RunMRU%20%28ES%29.pdf) · [EN](https://github.com/Ank1nskywalker/Templates/blob/main/Threat%20Hunting%20Report%20Template%20-%20ClickFix%20RunMRU%20%28EN%29.pdf)
 
 ### Writing the Incident Story: Professional Reporting for Malware and Cyber Attacks
 
@@ -72,11 +72,11 @@ Un recorrido por la disciplina de Cyber Threat Intelligence (CTI) y sus diferenc
 
 ## Plantillas
 
-Material reutilizable que acompaña a las charlas, en la carpeta [Templates](Templates).
+Material reutilizable que acompaña a las charlas, en su propio repositorio: [Ank1nskywalker/Templates](https://github.com/Ank1nskywalker/Templates).
 
 **Informe de Threat Hunting** · Plantilla completa con un caso de ejemplo real (ClickFix / RunMRU), presentada en Hacking Day 2026: resumen ejecutivo, hipótesis de caza, alcance y limitaciones, MITRE ATT&CK, metodología PEAK, hallazgos, plan de acción y anexos con IOCs, queries S1QL y línea de tiempo. TLP:CLEAR, con los datos de la víctima anonimizados.
 
-[Español](Templates/Informe_Threat_Hunting__01-2026_-ClickFix_RunMRU.pdf) · [English](Templates/Threat_Hunting_Report_Template_-_ClickFix_RunMRU_EN.pdf)
+[Español](https://github.com/Ank1nskywalker/Templates/blob/main/Plantilla%20Informe%20Threat%20Hunting%20-%20ClickFix%20RunMRU%20%28ES%29.pdf) · [English](https://github.com/Ank1nskywalker/Templates/blob/main/Threat%20Hunting%20Report%20Template%20-%20ClickFix%20RunMRU%20%28EN%29.pdf)
 
 ---
 
