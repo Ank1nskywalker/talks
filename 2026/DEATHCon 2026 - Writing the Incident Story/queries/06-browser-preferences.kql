@@ -1,0 +1,13 @@
+// Q6 · How does it stay? A non-browser process modifies the browser profile.
+// Writing (Secure) Preferences is how a fake extension gets enabled without
+// the Web Store. No ActionType filter on purpose: Chromium writes a temp file
+// and renames it, so the event may be FileRenamed, not FileModified.
+// Known false positives: mscopilot.exe and msedgewebview2.exe in their own profile.
+DeviceFileEvents
+| where TimeGenerated > ago(30d)
+| where FolderPath contains @"\User Data\"
+| where FileName in~ ("Preferences", "Secure Preferences")
+| where InitiatingProcessFileName !in~ ("chrome.exe", "msedge.exe",
+    "setup.exe", "GoogleUpdater.exe", "updater.exe")
+| project TimeGenerated, DeviceName, ActionType, InitiatingProcessFileName,
+    InitiatingProcessCommandLine, FolderPath

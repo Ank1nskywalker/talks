@@ -1,0 +1,10 @@
+// Q7 · Next hunt: an extension manifest created outside the browser.
+// This is the hypothesis this hunt leaves behind. Run it, but report it as
+// the next hunt in your Recommendations, not as part of this one.
+DeviceFileEvents
+| where TimeGenerated > ago(30d)
+| where ActionType == "FileCreated"
+| where FileName =~ "manifest.json" and FolderPath contains @"\AppData\"
+| where InitiatingProcessFileName !in~ ("chrome.exe", "msedge.exe",
+    "setup.exe", "GoogleUpdater.exe", "updater.exe")
+| project TimeGenerated, DeviceName, InitiatingProcessFileName, FolderPath

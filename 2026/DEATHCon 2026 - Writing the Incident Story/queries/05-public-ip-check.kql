@@ -1,0 +1,10 @@
+// Q5 · Did it locate itself? A non-browser process checks its public IP.
+// Stealers do this to tag the victim's country before exfiltration.
+DeviceNetworkEvents
+| where TimeGenerated > ago(30d)
+| where RemoteUrl has_any ("ipinfo.io", "ip-api.com", "api.ipify.org",
+    "ifconfig.me", "checkip.amazonaws.com")
+| where InitiatingProcessFileName !in~ ("chrome.exe", "msedge.exe",
+    "firefox.exe", "brave.exe", "opera.exe")
+| project TimeGenerated, DeviceName, InitiatingProcessFileName,
+    InitiatingProcessCommandLine, RemoteUrl, RemoteIP, RemotePort

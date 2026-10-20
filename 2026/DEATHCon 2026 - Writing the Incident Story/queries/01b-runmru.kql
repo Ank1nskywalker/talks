@@ -1,0 +1,13 @@
+// Q1b · Corroboration: did Explorer write that command to RunMRU?
+// RunMRU only records what was typed or pasted in the Run dialog (Win+R).
+// A hit here plus a hit in Q1 at the same second is strong evidence of a paste.
+DeviceRegistryEvents
+| where TimeGenerated > ago(30d)
+| where ActionType == "RegistryValueSet"
+| where InitiatingProcessFileName =~ "explorer.exe"
+| where RegistryKey has "RunMRU"
+| where RegistryValueData has_any ("powershell", "pwsh", "mshta", "curl",
+    "irm", "iwr", "http")
+| project TimeGenerated, DeviceName, InitiatingProcessAccountName,
+    RegistryValueName, RegistryValueData
+| sort by TimeGenerated asc

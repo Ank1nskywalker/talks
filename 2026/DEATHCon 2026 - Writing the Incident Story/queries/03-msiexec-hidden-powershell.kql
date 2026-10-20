@@ -1,0 +1,9 @@
+// Q3 · What came next? An installer that launches a hidden PowerShell.
+// In the original case: msiexec /i /qn /norestart on a random-named MSI in %TEMP%.
+DeviceProcessEvents
+| where TimeGenerated > ago(30d)
+| where InitiatingProcessFileName =~ "msiexec.exe"
+| where FileName in~ ("powershell.exe", "pwsh.exe")
+| where ProcessCommandLine contains "hidden"
+| project TimeGenerated, DeviceName, InitiatingProcessCommandLine,
+    ProcessCommandLine

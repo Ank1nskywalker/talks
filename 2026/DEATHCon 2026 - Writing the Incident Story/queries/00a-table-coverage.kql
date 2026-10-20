@@ -1,0 +1,10 @@
+// Q0a · Positive control: do the tables this hunt depends on have data?
+// Run this before any hunting query. An empty table means "I can't see",
+// not "there is nothing". Write the result in the Scope and Limitations section.
+union withsource=SourceTable isfuzzy=true
+    DeviceProcessEvents, DeviceRegistryEvents, DeviceNetworkEvents,
+    DeviceFileEvents, DeviceEvents
+| where TimeGenerated > ago(30d)
+| summarize Events = count(), Hosts = dcount(DeviceName),
+    FirstSeen = min(TimeGenerated), LastSeen = max(TimeGenerated) by SourceTable
+| sort by SourceTable asc

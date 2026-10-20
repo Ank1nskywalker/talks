@@ -1,0 +1,18 @@
+// Q1 · Did anyone paste a command?
+// An interpreter launched by Explorer (Win+R) or by the browser (FileFix)
+// with something that looks like a download.
+// Blind spot: a paste into an already open console (Win+X -> Terminal) has no
+// new process or command line; only Script Block Logging (4104) sees it.
+// Positive control: remove the ProcessCommandLine filter. You should see
+// ordinary Explorer -> cmd/powershell launches from interactive users.
+// If even that comes back empty, check Q0a/Q0b before concluding anything.
+DeviceProcessEvents
+| where TimeGenerated > ago(30d)
+| where FileName in~ ("powershell.exe", "pwsh.exe", "cmd.exe", "mshta.exe")
+| where InitiatingProcessFileName in~ ("explorer.exe", "chrome.exe",
+    "msedge.exe", "firefox.exe")
+| where ProcessCommandLine has_any ("irm", "iwr", "iex", "Invoke-RestMethod",
+    "Invoke-WebRequest", "DownloadString", "http")
+| project TimeGenerated, DeviceName, AccountName,
+    InitiatingProcessFileName, ProcessCommandLine
+| sort by TimeGenerated asc

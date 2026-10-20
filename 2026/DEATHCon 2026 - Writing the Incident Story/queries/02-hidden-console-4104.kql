@@ -1,0 +1,15 @@
+// Q2 · Why didn't the user see it? Scripts that hide their own console.
+// Requires PowerShell Script Block Logging (event 4104) ingested into the
+// Event table. Check that first:
+//   Event | where TimeGenerated > ago(30d)
+//   | where EventLog == "Microsoft-Windows-PowerShell/Operational"
+//   | summarize count() by EventID
+// If 4104 is not there, this query cannot find anything: use 02b and write
+// the gap down in Scope and Limitations.
+Event
+| where TimeGenerated > ago(30d)
+| where EventLog == "Microsoft-Windows-PowerShell/Operational" and EventID == 4104
+| extend ScriptBlock = coalesce(RenderedDescription, tostring(EventData))
+| where ScriptBlock has "GetConsoleWindow"
+| where ScriptBlock has_any ("ShowWindow", "FreeConsole")
+| project TimeGenerated, Computer, ScriptBlock

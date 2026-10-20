@@ -1,0 +1,6 @@
+// Q0b · Positive control: which hosts send Defender telemetry?
+// A host that is not here cannot show up in any of the following queries.
+DeviceInfo
+| where TimeGenerated > ago(30d)
+| summarize LastSeen = max(TimeGenerated) by DeviceName, OSPlatform, OSVersion
+| sort by LastSeen desc

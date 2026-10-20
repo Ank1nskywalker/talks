@@ -1,0 +1,10 @@
+// Q4 · Who did it talk to? Signed .NET binaries with network connections.
+// csc, ilasm and friends compile code; they have no business talking to the
+// internet. No ActionType filter on purpose: short connections may only show
+// up as ConnectionSuccessAggregatedReport, reported later and aggregated.
+DeviceNetworkEvents
+| where TimeGenerated > ago(30d)
+| where InitiatingProcessFileName in~ ("csc.exe", "ilasm.exe", "MSBuild.exe",
+    "RegAsm.exe", "InstallUtil.exe", "AddInProcess.exe")
+| project TimeGenerated, DeviceName, ActionType, InitiatingProcessFileName,
+    InitiatingProcessCommandLine, RemoteIP, RemotePort, RemoteUrl

@@ -1,0 +1,14 @@
+// Q2b · Fallback without 4104: the cmdlets the Defender sensor records.
+// PowerShellCommand shows cmdlet names (Start-Process, Invoke-WebRequest...),
+// not their arguments or the script content. Scope it to the host and time
+// of your Q1 hit: replace both placeholders before running.
+let target_host = "<DeviceName from Q1>";
+let t0 = datetime(2026-01-01 00:00:00);   // <TimeGenerated from Q1>
+DeviceEvents
+| where TimeGenerated between ((t0 - 5m) .. (t0 + 30m))
+| where DeviceName =~ target_host
+| where ActionType == "PowerShellCommand"
+| extend Command = tostring(parse_json(AdditionalFields).Command)
+| project TimeGenerated, InitiatingProcessAccountName,
+    InitiatingProcessCommandLine, Command
+| sort by TimeGenerated asc
