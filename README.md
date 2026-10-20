@@ -50,11 +50,11 @@ Toda defensa opera sobre supuestos: que la telemetría ve todo, que las deteccio
 
 ### Writing the Incident Story: Professional Reporting for Malware and Cyber Attacks
 
-**Deathcon Cordoba** · *Noviembre 2026*
+**DEATHCon 2026** · Online + Córdoba, Argentina · *Noviembre 2026* · Workshop
 
-Cómo redactar reportes de incidentes claros, precisos y accionables para casos de malware y ciberataques, con foco en la comunicación profesional dentro del proceso de Incident Response.
+Workshop autoguiado sobre cómo escribir informes de threat hunting claros, precisos y accionables. Los participantes cazan una intrusión ClickFix en Microsoft Sentinel con queries KQL semilla y convierten el hallazgo en un informe: resumen ejecutivo BLUF, hechos separados de evaluaciones, lenguaje de confianza (ICD 203), hipótesis en competencia (ACH) y la idea de que una caza sin hallazgos también se reporta.
 
-> 🗓️ Charla confirmada. Material en preparación; se publicará después del evento (noviembre 2026).
+[Workshop: guía, queries y rúbrica](2026/DEATHCon%202026%20-%20Writing%20the%20Incident%20Story/) · Slides: [ES](2026/DEATHCon%202026%20-%20Writing%20the%20Incident%20Story/slides/Writing%20the%20Incident%20Story%20%28ES%29.pptx) · [EN](2026/DEATHCon%202026%20-%20Writing%20the%20Incident%20Story/slides/Writing%20the%20Incident%20Story%20%28EN%29.pptx) · PDF: [ES](2026/DEATHCon%202026%20-%20Writing%20the%20Incident%20Story/slides/Writing%20the%20Incident%20Story%20%28ES%29.pdf) · [EN](2026/DEATHCon%202026%20-%20Writing%20the%20Incident%20Story/slides/Writing%20the%20Incident%20Story%20%28EN%29.pdf) · Informe modelo: [ES](https://github.com/Ank1nskywalker/Templates/blob/main/Plantilla%20Informe%20Threat%20Hunting%20-%20ClickFix%20RunMRU%20-%20Sentinel%20%28ES%29.pdf) · [EN](https://github.com/Ank1nskywalker/Templates/blob/main/Threat%20Hunting%20Report%20Template%20-%20ClickFix%20RunMRU%20-%20Sentinel%20%28EN%29.pdf)
 
 ---
 
@@ -77,6 +77,10 @@ Material reutilizable que acompaña a las charlas, en su propio repositorio: [An
 **Informe de Threat Hunting** · Plantilla completa con un caso de ejemplo real (ClickFix / RunMRU), presentada en Hacking Day 2026: resumen ejecutivo, hipótesis de caza, alcance y limitaciones, MITRE ATT&CK, metodología PEAK, hallazgos, plan de acción y anexos con IOCs, queries S1QL y línea de tiempo. TLP:CLEAR, con los datos de la víctima anonimizados.
 
 [Español](https://github.com/Ank1nskywalker/Templates/blob/main/Plantilla%20Informe%20Threat%20Hunting%20-%20ClickFix%20RunMRU%20%28ES%29.pdf) · [English](https://github.com/Ank1nskywalker/Templates/blob/main/Threat%20Hunting%20Report%20Template%20-%20ClickFix%20RunMRU%20%28EN%29.pdf)
+
+**Informe de Threat Hunting · edición Microsoft Sentinel** · El mismo caso adaptado a Microsoft Sentinel y Defender for Endpoint, con queries KQL; es el informe modelo del workshop de DEATHCon 2026. En Word editable y PDF.
+
+Español: [Word](https://github.com/Ank1nskywalker/Templates/blob/main/Plantilla%20Informe%20Threat%20Hunting%20-%20ClickFix%20RunMRU%20-%20Sentinel%20%28ES%29.docx) · [PDF](https://github.com/Ank1nskywalker/Templates/blob/main/Plantilla%20Informe%20Threat%20Hunting%20-%20ClickFix%20RunMRU%20-%20Sentinel%20%28ES%29.pdf) · English: [Word](https://github.com/Ank1nskywalker/Templates/blob/main/Threat%20Hunting%20Report%20Template%20-%20ClickFix%20RunMRU%20-%20Sentinel%20%28EN%29.docx) · [PDF](https://github.com/Ank1nskywalker/Templates/blob/main/Threat%20Hunting%20Report%20Template%20-%20ClickFix%20RunMRU%20-%20Sentinel%20%28EN%29.pdf)
 
 ---
 
