@@ -78,6 +78,7 @@ The queries look back 30 days (`ago(30d)`). If you run them later than the event
 - **Not every source is ingested.** If the PowerShell operational log (4104) is not in the `Event` table, Q2 cannot find anything. Use Q2b and write the gap in *Scope and Limitations*. A gap you declare is a finding; a gap you hide is a false negative.
 - **Network events can be aggregated.** Short connections may only appear as `ConnectionSuccessAggregatedReport`, reported minutes later. That is why Q4 does not filter by `ActionType`.
 - **Browsers write their profile with a temp file and a rename.** A change to `Preferences` may show up as `FileRenamed`. That is why Q6 does not filter by `ActionType` either.
+- **Q6 may come back with nothing but noise.** In this lab, Defender did not record the non-browser write to the Chrome profile, so Q6 returns only browser false positives (Copilot, WebView2), not a malicious hit. That is a real coverage gap — run Q6, classify what comes back, and declare the blind spot in *Scope and Limitations*. The chain still stands on the detections that did fire (the lineage in Q1, the .NET outbound in Q4). A blind spot you report is itself a finding.
 - **An empty result is a result** only if the positive control worked. Say which one it was.
 
 ---

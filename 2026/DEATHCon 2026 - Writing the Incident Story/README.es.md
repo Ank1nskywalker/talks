@@ -78,6 +78,7 @@ Los comentarios de las queries están en inglés. Miran 30 días hacia atrás (`
 - **No todas las fuentes se ingieren.** Si el log operativo de PowerShell (4104) no está en la tabla `Event`, Q2 no puede encontrar nada. Usá Q2b y escribí la brecha en *Alcance y Limitaciones*. Una brecha declarada es un hallazgo; una brecha oculta es un falso negativo.
 - **Los eventos de red pueden venir agregados.** Las conexiones cortas pueden aparecer solo como `ConnectionSuccessAggregatedReport`, reportadas minutos después. Por eso Q4 no filtra por `ActionType`.
 - **Los navegadores escriben su perfil con un archivo temporal y un rename.** Un cambio en `Preferences` puede verse como `FileRenamed`. Por eso Q6 tampoco filtra por `ActionType`.
+- **Q6 puede volver solo con ruido.** En este lab, Defender no registró la escritura al perfil de Chrome hecha por un proceso que no es el navegador, así que Q6 devuelve solo falsos positivos del navegador (Copilot, WebView2), no un hallazgo malicioso. Es un gap de cobertura real: corré Q6, clasificá lo que vuelve y declará el punto ciego en *Alcance y Limitaciones*. La cadena se sostiene igual con las detecciones que sí dispararon (el linaje en Q1, la salida .NET en Q4). Un punto ciego que reportás es, en sí, un hallazgo.
 - **Un resultado vacío es un resultado** solo si el control positivo funcionó. Decí cuál de los dos fue.
 
 ---
